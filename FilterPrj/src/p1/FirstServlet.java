@@ -28,7 +28,7 @@ public class FirstServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter pw=response.getWriter();
-		pw.println("output from Filter");
+		pw.println("output from first Filter");
 	}
 
 	/**
